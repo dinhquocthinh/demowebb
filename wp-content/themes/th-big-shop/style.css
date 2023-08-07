@@ -1,0 +1,35 @@
+/*
+ Theme Name: Th Big Shop
+ Theme URI: https://themehunk.com/product/big-store/
+ Author: ThemeHunk
+ Author URI: https://www.themehunk.com
+ Template: big-store
+ Description: Th Big Shop is a beautiful and clean child theme of Big store. You can create websites like gadget & digital store, fashion shop, furniture, electronic, food, grocery, clothing etc. It has many sections along with Header and footer layout combinations, Color and Background option and other customizing options. Theme is deeply integrated with WooCommerce plugin to sell your products online.
+ Version: 1.0.3
+ Requires at least: 5
+ Tested up to: 6.2
+ Requires PHP: 5.6
+ License: GNU General Public License v3 or later
+ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+ Text Domain: th-big-shop
+ Tags: e-commerce, blog, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-image-header, featured-images, custom-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+ This theme, like WordPress, is licensed under the GPL.
+ Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.blog .site-main{
+	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+}
+.thunk-woo-product-list.post, article.thunk-post-article{
+	width: 48%;
+}
+.big-store-menu ul.sub-menu{
+	background: #003430;
+}
+a:focus, :focus {
+    outline: thin dotted;
+    text-decoration:none;
+}

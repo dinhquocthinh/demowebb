@@ -1,0 +1,47 @@
+#customize-controls .control-section-shopping-solution .accordion-section-title:hover,
+#customize-controls .control-section-shopping-solution .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-shopping-solution .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-shopping-solution .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+  border: solid 1px #0073aa;
+  font-size: 16px;
+  font-weight: bold !important;
+}
+.control-section-ecommerce-solution {
+  display: none !important;
+}
+.customize-control-title {
+  font-size: 16px;
+  color: #0073aa;
+}
+/* ---------Important Link--------- */
+#customize-control-shopping_solution_doc_link span a,
+#customize-control-shopping_solution_demo_links span a,
+#customize-control-shopping_solution_forum_links span a {
+  display: block;
+  background-color: #6edcf5;
+  color: #0b3240;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 10px;
+  border: 2px solid #0b3240;
+  border-radius: 10px;
+  text-align: center;
+}
+#customize-control-shopping_solution_doc_link span a:hover,
+#customize-control-shopping_solution_demo_links span a:hover,
+#customize-control-shopping_solution_forum_links span a:hover {
+  background-color: #0b3240;
+  color: #fff;
+}
